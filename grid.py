@@ -42,3 +42,4 @@ def plot_graph (cust,stat):
             plt.plot(i[0],i[1], marker,color='red')   
         plt.legend(numpoints=1)
     plt.show()
+    fig.savefig('plot.png')
