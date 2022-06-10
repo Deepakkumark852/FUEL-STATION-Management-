@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DS Project</title>
+
+    <style>
+        body{
+            background: #edcb75;
+            text-align: center;
+            font-size: 25px;
+            font-family: monospace;
+        }
+        #btn{
+            background: darkgrey;
+            font-size: large;
+            font-family: Calibri, Helvetica, sans-serif; 
+            cursor: pointer; 
+        }
+        .but{
+            display: grid;
+        }
+
+        #topic{
+            text-align: center;
+            font-family: sans-serif;
+
+        }
+        #logo{
+            width: 100px; 
+         height: 100px; 
+         display: block; 
+         text-indent: -9999px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 id="topic">Recommended location to add new fuel station</h1>
+    
+    <img src=".\static\recommendation.png" alt="image">
+    <br>
+    {% for i in range(25) %}
+        <p>grid {{p[i]}} has {{f[i]}} customers.</p> 
+    {% endfor %}
+    <br>
+    <a href="/"><button><bold>Back</bold></button></a>
+
+
+</body>
+</html>
